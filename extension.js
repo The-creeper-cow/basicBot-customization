@@ -33,7 +33,7 @@
          }
 
          */
-
+         /*
         bot.commands.baconCommand = {
             command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
@@ -46,7 +46,7 @@
                 }
             }
         };
-
+        */
         //Load the chat package again to account for any changes
         bot.loadChat();
 
@@ -88,6 +88,7 @@
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
+            ["vote", "The Song you played had to many meh's"]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
